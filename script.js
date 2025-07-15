@@ -5,7 +5,7 @@
         const heroTitle = document.querySelector('.hero-title');
         if (heroTitle) {
             const originalText = "Hi, I'm Tejus Cholkar";
-            const gradientSpan = '<span class="gradient-text">Ravi Pandey</span>';
+            const gradientSpan = '<span class="gradient-text">Tejus Cholkar</span>';
             
             heroTitle.innerHTML = '';
             let i = 0;
@@ -176,7 +176,7 @@
         loader.className = 'creative-loader';
         loader.innerHTML = `
             <div class="loader-content">
-                <div class="loader-logo">RP</div>
+                <div class="loader-logo">TC</div>
                 <div class="loader-progress">
                     <div class="loader-bar"></div>
                 </div>
