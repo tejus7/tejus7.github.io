@@ -3,60 +3,80 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Tejus Cholkar - Portfolio</title>
+    <title>Tejus Cholkar - Full Stack Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Tejus Cholkar – Full Stack Developer">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f9f9f9;
-            color: #333;
+            background-color: #f5f5f5;
+            color: #222;
         }
 
         header {
-            background: #003366;
-            color: #fff;
-            padding: 30px;
+            background-color: #0f172a;
+            color: white;
+            padding: 60px 20px;
             text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        nav a {
+            color: #38bdf8;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
         }
 
         section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
         }
 
-        .project,
-        .certs {
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        .project {
             background: white;
             padding: 20px;
-            margin-bottom: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
         }
 
-        .project img {
-            width: 100%;
-            border-radius: 5px;
-            margin-top: 15px;
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #0ea5e9;
         }
 
         footer {
-            background: #003366;
-            color: white;
             text-align: center;
-            padding: 15px;
+            padding: 20px;
+            background: #0f172a;
+            color: white;
+            font-size: 0.9em;
         }
 
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
@@ -65,17 +85,17 @@
 
     <header>
         <h1>Tejus Cholkar</h1>
-        <p>Software Developer | Web Developer</p>
-        <p><a href="mailto:tejuscholkar210104@gmail.com" style="color:#9fd3ff;">tejuscholkar210104@gmail.com</a> | <a
-                href="https://github.com/tejus7" target="_blank">GitHub</a> | <a
-                href="https://www.linkedin.com/in/tejus-cholkar-a0b3572bb/" target="_blank">LinkedIn</a></p>
+        <p>Full Stack Developer | Java | Spring Boot | React</p>
+        <nav>
+            <a href="https://github.com/tejus7" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/tejus-cholkar-a0b3572bb" target="_blank">LinkedIn</a>
+        </nav>
     </header>
 
     <section>
         <h2>About Me</h2>
-        <p>Full Stack Developer skilled in building scalable web applications using Java, Spring Boot, React, and REST
-            APIs. Strong foundation in debugging, JWT authentication, Agile practices, and DevOps tools like Git and
-            Postman. Passionate about efficient coding and secure application design.</p>
+        <p>I'm a full stack developer skilled in building secure and scalable applications using Java, Spring Boot,
+            React, and REST APIs. I enjoy solving complex problems and building software that makes a difference.</p>
     </section>
 
     <section>
@@ -83,56 +103,33 @@
 
         <div class="project">
             <h3>CRM Portal</h3>
-            <p><strong>Duration:</strong> Mar 2025 – Present</p>
-            <p>Developed a full-stack CRM platform using Java, Spring Boot, React, and MySQL. Achieved a 38% reduction
-                in backend response time. Integrated JWT authentication, Spring Security, and API Gateway for a secure
-                and scalable microservices architecture.</p>
-            <p><strong>Tools:</strong> Java, Spring Boot, React, MySQL, JPA, API Gateway, Git, Postman</p>
+            <p>Built a full-stack CRM app using Java, Spring Boot, MySQL, and React. Integrated JWT auth and Spring
+                Security. Backend optimized to reduce response time by 38%.</p>
             <a href="https://github.com/tejus7" target="_blank">View on GitHub</a>
         </div>
 
         <div class="project">
-            <h3>Bone Fracture Detection using Image Processing</h3>
-            <p><strong>Duration:</strong> May 2023 – Dec 2023</p>
-            <p>Designed a Python-based image processing pipeline to detect bone fractures using edge detection and
-                feature extraction algorithms. Achieved 95.5% sensitivity and 89.6% accuracy.</p>
-            <p><strong>Tools:</strong> Python, OpenCV, NumPy, Canny Edge Detection</p>
+            <h3>Bone Fracture Detection</h3>
+            <p>Python-based image processing project using OpenCV and NumPy to detect fractures. Achieved 95.5%
+                sensitivity and 89.6% accuracy.</p>
             <a href="https://github.com/tejus7" target="_blank">View on GitHub</a>
         </div>
     </section>
 
     <section>
         <h2>Skills</h2>
-        <p><strong>Languages:</strong> Java, Python, PHP, SQL, JavaScript, HTML5, CSS3</p>
-        <p><strong>Frameworks:</strong> Spring Boot, React, Bootstrap, JQuery, TensorFlow, Keras</p>
-        <p><strong>Databases:</strong> MySQL, MongoDB</p>
-        <p><strong>Tools:</strong> Git, GitHub, Postman, API Gateway, VS Code</p>
-        <p><strong>Concepts:</strong> JWT, REST APIs, Agile, Embedded Systems, DSA</p>
-    </section>
-
-    <section>
-        <h2>Certifications</h2>
-        <div class="certs">
-            <ul>
-                <li>JP Morgan - Software Engineering Virtual Internship (Forage) – Jul 2025</li>
-                <li>Deloitte - Data Analytics & Cybersecurity (Forage) – Jun 2025</li>
-                <li>Tata Group - Cybersecurity Analyst (Forage) – Mar 2025</li>
-                <li>Cisco - Programming Essentials in Python – Mar 2023</li>
-                <li>Internshala - Web Development Training – Mar 2022</li>
-            </ul>
-        </div>
+        <p>Java, Python, Spring Boot, React, REST APIs, MySQL, MongoDB, Git, HTML, CSS, Postman, Agile</p>
     </section>
 
     <section>
         <h2>Contact</h2>
         <p>Email: <a href="mailto:tejuscholkar210104@gmail.com">tejuscholkar210104@gmail.com</a></p>
         <p>Phone: +91-7898899072</p>
-        <p>Location: Nagpur, Maharashtra</p>
-        <p>Resume: <a href="resume.pdf" target="_blank">Download PDF</a></p>
+        <p><a href="Tejus Cholkar - Resume.pdf" target="_blank">Download Resume (PDF)</a></p>
     </section>
 
     <footer>
-        <p>© 2025 Tejus Cholkar | Portfolio Site</p>
+        © 2025 Tejus Cholkar — Portfolio
     </footer>
 
 </body>
