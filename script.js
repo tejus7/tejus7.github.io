@@ -4,7 +4,7 @@
     function initTypingAnimation() {
         const heroTitle = document.querySelector('.hero-title');
         if (heroTitle) {
-            const originalText = "Hi, I'm Ravi Pandey";
+            const originalText = "Hi, I'm Tejus Cholkar";
             const gradientSpan = '<span class="gradient-text">Ravi Pandey</span>';
             
             heroTitle.innerHTML = '';
@@ -12,7 +12,7 @@
             
             function typeWriter() {
                 if (i < originalText.length) {
-                    if (originalText.substr(i, 11) === "Ravi Pandey") {
+                    if (originalText.substr(i, 11) === "Tejus Cholkar") {
                         heroTitle.innerHTML = originalText.substr(0, 7) + gradientSpan;
                         i = originalText.length;
                     } else {
